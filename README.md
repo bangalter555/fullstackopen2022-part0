@@ -18,6 +18,7 @@ Then, browser reloads the page /exampleapp/notes
 end note
 
 server-->browser: 302 (URL redirection to: /exampleapp/notes)
+
 browser-->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/notes
 
 note over server:
