@@ -2,7 +2,7 @@
 
 ## Part 0
 
-#### Excercise 0.4 - Create a diagram
+#### Excercise 0.4 
 
 ##### browser-->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
 
