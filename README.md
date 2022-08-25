@@ -28,22 +28,17 @@ end note
 
 #### Excercise 0.5
 
-##### browser-->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
+##### browser-->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa  
+##### server-->browser: HTML code (slightly different from traditional web page/ the form element does not have "action" or "method" attributes). 
+##### browser-->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css  
+##### server-->browser: main.css  
+##### browser-->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa.js 
 
-##### server-->browser: HTML code (slightly different from traditional web page/ the form element does not have "action" or "method" attributes).
+note over server:  
+The JS file is different from the MPA JS file.  
 
-##### browser-->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
+note over browser:  
+Unlike the MPA logic, in SPA logicm the browser retreats one HTML file from the server and then handles its content through Javascript.  
 
-##### server-->browser: main.css
-
-##### browser-->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa.js
-
-note over server:
-The JS file is different from the MPA JS file.
-
-note over browser:
-Unlike the MPA logic, in SPA logicm the browser retreats one HTML file from the server and then handles its content through Javascript.
-
-##### browser-->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
-
+##### browser-->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json  
 ##### server-->browser: [{"content":"Thank you Lord Gaben for this patch <3","date":"2022-08-25T11:26:57.137Z"}]
