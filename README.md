@@ -58,7 +58,7 @@ note over browser:
 ->Request header "content-type" tells server that the data is represented in JSON format.  
 Otherwise, server would ont know how to manage the data.
 
-note over server:
+note over server:  
 ->server replies with 201 "Created" status response.  
 this means the server will not request for redirection.  
 instead it will remain on the same page and will not send any more requests.  
